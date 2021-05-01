@@ -5,7 +5,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/google/muskie/aosp_walleye.mk)
+$(call inherit-product, device/google/walleye/aosp_walleye.mk)
 
 include device/google/wahoo/device-lineage.mk
 
